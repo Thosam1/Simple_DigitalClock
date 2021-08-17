@@ -3,6 +3,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
     <title>Simple_Clock</title>
     <style>
         body {
@@ -11,7 +13,7 @@
         .clock{
             font-size: 4em;
             text-align: center;
-            margin: 200px auto;
+            margin: 75px auto;
             color: yellow;
             font-family: arial;
         }
@@ -19,11 +21,25 @@
             padding: 20px;
             background: #444;
         }
+        .title{
+            text-align: center;
+            margin: 150px auto;
+            color: rgba(255, 255, 0, 0.74);
+            font-family: arial;
+            padding: 20px;
+            background: #444;
+        }
+        .center{
+            text-align: center;
+            width: 100%;
+        }
     </style>
 </head>
 <body>
 
+    <h1 class="title">Simple Digital Clock</h1>
     <div class="clock"></div>
+    <i class="far fa-clock fa-8x center" style="color:yellow"></i>
     
     <script src="sandbox.js"></script>
 </body>
